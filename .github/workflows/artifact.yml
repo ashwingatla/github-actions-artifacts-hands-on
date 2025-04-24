@@ -29,3 +29,4 @@ jobs:
         path: ./artifacts/hello.txt
     - name: display-content
       run: cat ./artifacts/hello.txt
+      
