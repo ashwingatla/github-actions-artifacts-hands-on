@@ -1,11 +1,8 @@
 name: Workflow Demo
-
 on: [push]
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -29,3 +26,4 @@ jobs:
         path: ./artifacts
     - name: display-content
       run: cat ./artifacts/hello.txt
+
